@@ -1,0 +1,15 @@
+.top-back {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    background: white;
+    top: 0px;
+}
+
+.breadcrumb.has-arrow-separator li+li:before {
+    padding: 0px 10px;
+}
+
+.mt-50 {
+    margin-top: 30px
+}

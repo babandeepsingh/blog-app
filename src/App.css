@@ -1,0 +1,35 @@
+h1{
+    font-weight: 600;
+    padding-top: 8px;
+}
+p{
+    margin: 1rem 0rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  :root {
+    --bulma-skeleton-background: var(--bulma-border);
+    --bulma-skeleton-radius: var(--bulma-radius-small);
+    --bulma-skeleton-block-min-height: 4.5em;
+    --bulma-skeleton-lines-gap: 0.75em;
+    --bulma-skeleton-line-height: 0.75em;
+  }
